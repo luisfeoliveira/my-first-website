@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contato - ELDER MONTEIRO CONSULTORIA</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="icon" type="image/png" href="imagens/iconelista.png">
+        <script>
+            window.onload = function () {
+            
+                var a = document.querySelector("#contato");
+                a.style.borderTop = "5px solid #ffd700";
+                a.style.paddingTop = "15px";
+            
+            
+                var cpf = document.querySelector("#cpf");
+                cpf.onblur = function(){
+                    var valida = /^([\d]{3})([\d]{3})([\d]{3})([\d]{2})$/;
+                    if(!valida.test(this.value)){
+                        alert("Ops! Tem alguma coisa errada. Tente colocar somente números.\nPRESSIONE ENTER");
+                   }else{
+                       this.value = this.value.replace(valida, '$1.$2.$3-$4');
+                       
+                   }
+                    
+                    
+                    if(cpf==blur){
+                        
+                    }else{
+                        
+                    }
+                    
+                    
+                }
+                var fone = document.querySelector("#fone");
+                fone.onblur = function(){
+                    var valid = /^([\d]{2})([\d]{1})([\d]{4})([\d]{4})$/;
+                    if(!valid.test(this.value)){
+                        alert("Ops! Tem alguma coisa errada. Adicione o número 9 depois do DDD");
+                    }else{
+                        this.value = this.value.replace(valid, '($1) $2 $3-$4')
+                    }
+                }            
+            };
+                
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <div class="barra_topo">
+                <a href="index.html"><img alt="logo" src="imagens/logo_nova2.png" class="logo_top"></a>
+            </div>
+        </header>
+        
+        <nav>
+                <ul>
+                    <li><a href="index.html" id="home">HOME</a></li>
+                    <li><a href="servicos.html" id="servicos">SERVIÇOS</a></li>
+                    <li><a href="contato.html" id="contato">CONTATO</a></li>
+                    <li><a href="faq.html" id="faq">PERGUNTAS FREQUENTES</a></li>
+                    <li><a href="sobre.html" id="sobre">SOBRE</a></li>
+                </ul>
+        </nav>
+        
+        <div class="banner_contato">
+            <h1 class="textob_contato"><br>"Quem semeia segurança, colhe qualidade de vida!"</h1>
+        </div>
+        <main>
+            <h1 class="tit_pagina">Contato</h1>
+            
+            <section class="ctt">
+                
+                <div id="tel">
+                <h2>Telefone</h2>  
+                <p>63 99283-8584</p>
+                </div>
+                
+                <div id="email">
+                <h2>E-mail</h2>  
+                <p>eldermonteiro01@gmail.com</p>
+                </div>
+                
+                <div id="siganos">
+                <h2>Siga-nos nas redes sociais</h2><p id="ins">@eldermonteiro01</p>
+                <p id="fac">/ElderMonteiroConsultoria</p>
+                <p id="what">63 99283-8584</p>
+                </div>
+            </section>
+            <section class="formulario">
+                <form name="enviar_servico" action="qc.html">
+                    <h3>Solicitação de serviço via formulário</h3>
+                    <h5>Entraremos em contato em menos de 24hrs</h5>
+                    <br>Nome:<br>
+                    <input type="text" name="FName" placeholder="Ex.: José" required><br><br>
+                    Sobrenome:<br>
+                    <input type="text" name="LName" placeholder="Ex.: da Silva" required><br><br>
+                    Data de Nascimento:<br>
+                    <input type="date" name="DataNasc" required><br><br>
+                    CPF:<br>
+                    <input type="text" name="cpf" id="cpf" placeholder="XXX.XXX.XXX-XX"required><br><br>
+                    Telefone:<br>
+                    <input type="text" name="Fone" id="fone" placeholder="(XX) 9 XXXX-XXXX" required><br><br>
+                    Email:<br>
+                    <input type="email" name="Mail" placeholder="Ex.: exemplo@ex.com" required><br><br>
+                    Serviço a ser contratado:<br>
+                    <input type="checkbox" name="Mail"> Documentação
+                    <input type="checkbox" name="Mail"> Palestra
+                    <input type="checkbox" name="Mail"> Treinamento<br><br>
+                    Cite com detalhes os serviços desejados, e alguma informação a mais, se necessário:<br><textarea type="text" name="LName" rows="10" cols="60" required></textarea><br>
+                    <input type="submit" name="enviar" id="enviar" value="Enviar"><input type="reset" name="limpar" value="Limpar Tudo">
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            <ul>
+                <li><a href="contato.html#siganos" class="social insta"><span>insta</span></a></li>
+                <li><a href="contato.html#siganos" class="social face"><span>face</span></a></li>
+                <li><a href="contato.html#siganos" class="social whats"><span>whats</span></a></li>
+            </ul>          
+            
+             <a href="index.html"><img src="imagens/logo_nova1.png" class="logorodape" alt="logorodape"></a>
+            
+             <p>A empresa aqui referida é meramente fictícia, <br>este site possui fins acadêmicos.<br>&#9400 Copyright 2017 | Developed by Luis Felipe Santos<br><a href="index.html">Home</a>  |  <a href="servicos.html">Serviços</a>  |  <a href="contato.html">Contato</a>  |  <a href="sobre.html">Sobre</a></p>
+            
+        </footer>        
+    </body>
+</html>

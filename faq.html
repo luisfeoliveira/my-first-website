@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Perguntas Frequentes - ELDER MONTEIRO CONSULTORIA</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="icon" type="image/png" href="imagens/iconelista.png">
+        <script>
+            window.onload = function(){
+    
+            var a = document.querySelector("#faq");
+            a.style.borderTop = "5px solid #ffd700";
+            a.style.paddingTop = "15px";
+         };
+            res = document.getElementsByClassName("respostas");
+            
+            function alternar(x){
+                console.log("e");
+                res[x].style.display = 'block';
+            }
+            
+            function alt(x){
+                res[x].style.display = 'none';
+                
+            }
+            
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <div class="barra_topo">
+                <a href="index.html"><img alt="logo" src="imagens/logo_nova2.png" class="logo_top"></a>
+            </div>
+        </header>
+        
+         <nav>
+                <ul>
+                    <li><a href="index.html" id="home">HOME</a></li>
+                    <li><a href="servicos.html" id="servicos">SERVIÇOS</a></li>
+                    <li><a href="contato.html" id="contato">CONTATO</a></li>
+                    <li><a href="faq.html" id="faq">PERGUNTAS FREQUENTES</a></li>
+                    <li><a href="sobre.html" id="sobre">SOBRE</a></li>
+                </ul>
+        </nav>
+        
+        <div class="banner_faq">
+            <h1 class="textob_faq"><br>"Prevenir acidentes é pensar no futuro!"</h1>
+        </div>
+        <main>
+            <h1 class="tit_pagina">Perguntas Frequentes - FAQ</h1>
+            <p id="intro_faq">Visando tirar algumas dúvidas sobre segurança do trabalho, fizemos um compilado sobre as perguntas mais frequentes sobre a área, e as respondemos da forma mais clara e explicativa possível.<br>Passe o mouse sobre a pergunta para ver a resposta.</p>
+            
+                                                 <!--Perguntas e respostas-->
+            <h2 class="perguntas" onmouseover="alternar(0)" onmouseout="alt(0)">O que é Segurança do trabalho?</h2>
+                <p class="respostas">É um conjunto de medidas que são adotadas visando minimizar os acidentes de trabalho, doenças ocupacionais, bem como proteger a integridade e a capacidade de trabalho do trabalhador.</p>
+                
+            
+            <h2 class="perguntas" onmouseover="alternar(1)" onmouseout="alt(1)">Com que frequência acontece um acidente de trabalho? </h2>
+                <p class="respostas">Não há como definir uma frequência na qual os acidentes acontecem, eles acontecem quando não tomamos conhecimento dos riscos e quando não há cuidado necessário para tal evento. O correto é ter o profissional da área de segurança, direta ou indiretamente para que não haja acidentes ou minimizar os riscos.</p>
+            
+            
+            <h2 class="perguntas" onmouseover="alternar(2)" onmouseout="alt(2)">O EPI(Equipamento de Proteção Individual) pode evitar mesmo um acidente?</h2>
+                <p class="respostas">Sim! Em alguns casos apenas ameniza uma lesão, mas em muitos casos, pode evitar acidentes e até mesmo salvar vidas.</p>
+        
+            <h2 class="perguntas" onmouseover="alternar(3)" onmouseout="alt(3)">Quais EPI's são mais utilizados em uma empresa? </h2>
+              <p class="respostas">Isso depende da atividade executado o serviço. Na tabela abaixo temos os EPI's mais utilizados em 4 tipos diferentes de trabalho.</p>
+                <table>
+                    <tr>
+                        <th>Trabalho em altura</th>
+                        <th>Trabalho com equipamentos elétricos</th>
+                        <th>Trabalho com solda elétrica</th>
+                        <th>Trabalho com pintura</th>
+                    </tr>
+
+                    <tr>
+                        <td>Cinto de segurança</td>
+                        <td>Luvas com proteção à choque elétrico</td>
+                        <td>Máscara de solda</td>
+                        <td>Máscara respiratória facial</td>
+                    </tr>
+
+                    <tr>
+                        <td>Capacete</td>
+                        <td>Capacete com aba total</td>
+                        <td>Luva de raspa</td>
+                        <td>Avental</td>
+                    </tr>
+
+                    <tr>
+                        <td>Uniforme</td>
+                        <td>Uniforme</td>
+                        <td>Capuz</td>
+                        <td rowspan="2">Marcação para pintura</td>
+                    </tr>
+
+                    <tr>
+                        <td>Luvas específicas</td>
+                        <td>Botas com proteção à choque elétrico</td>
+                        <td>Avental de raspa</td>
+
+                    </tr>
+
+                </table>
+            
+            
+            <h2 class="perguntas" onmouseover="alternar(4)" onmouseout="alt(4)">Quem é o responsável pela Segurança do Trabalho?</h2>
+                <p class="respostas">Todos! Todos são responsáveis pela segurança, tanto o empregador quanto os empregados. Mesmo quando houver um profissional na área de segurança, todos devem atentar-se para a segurança no trabalho</p>
+            <!---------------------------------------------------------------------------------------------------------------------------->
+        
+        </main>
+        
+        <footer>
+           <ul>
+                <li><a href="contato.html#siganos" class="social insta"><span>insta</span></a></li>
+                <li><a href="contato.html#siganos" class="social face"><span>face</span></a></li>
+                <li><a href="contato.html#siganos" class="social whats"><span>whats</span></a></li>
+            </ul>          
+            
+             <a href="index.html"><img src="imagens/logo_nova1.png" class="logorodape" alt="logorodape"></a>
+            
+            <p>A empresa aqui referida é meramente fictícia, <br>este site possui fins acadêmicos.<br>&#9400 Copyright 2017 | Developed by Luis Felipe Santos<br><a href="index.html">Home</a>  |  <a href="servicos.html">Serviços</a>  |  <a href="contato.html">Contato</a>  |  <a href="sobre.html">Sobre</a></p>
+        </footer>
+    </body>
+</html>
+

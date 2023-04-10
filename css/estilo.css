@@ -1,0 +1,910 @@
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    width:1170px;
+    background-image:url(../imagens/fundo%20site.png);
+    background-attachment: fixed;
+    margin:0 auto;
+
+}
+
+header{
+    height:200px;
+}
+
+.barra_topo{
+    height:200px;
+    background-color:rgba(150, 150, 150, 0.1);
+}
+
+.logo_top{
+    max-height:200px;
+    position:relative;
+    left:25%;
+}
+
+nav{
+    background-color:#006e39;
+}
+
+nav ul{
+    display:inline-block;
+    position:relative;
+    left:405px;
+}
+
+nav ul li a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-family: 'Reem Kufi', sans-serif;
+    padding:20px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    margin-right:20px;
+    
+}
+
+nav ul li a:hover{
+    background-color: rgba(250, 250, 250, 0.1); 
+    border-top:5px #ffd700 solid;
+    padding-top:15px;
+    
+}
+
+
+.banner{
+    background-image: url(../imagens/banner.jpg);
+    background-size: cover;
+
+}
+
+.textob{
+    display:block;
+    position:relative;
+    left:620px;
+    width:490px;
+    height:350px;
+    color:#fff;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:46px;
+    text-align:center;
+    background-color:rgba(50, 50, 50, 0.2);
+}
+
+.content{
+    height:475px;
+    background-image:url(../imagens/banner2.png);
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size: contain;
+}
+
+.text1{
+    text-align:;
+    display:inline-block;
+    color:#000;
+    position:relative;
+    float:left;
+    font-family: 'Reem Kufi', sans-serif;
+    padding:50px;
+    font-size:30px;
+    
+}
+
+.colunas{
+    height:400px;
+    margin-bottom:100px;
+}
+
+/*   COLUNA 1   */
+
+.col1{
+    height:380px;
+    width:370px;
+    float:left;
+    margin:10px;
+}
+
+.col1 h1{
+    color:#fff;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:26px;
+    text-align:center;
+    background-color:#006e39;
+    border-top-right-radius: 20px;
+}
+
+.col1 ul{
+    text-align:center;
+    background-color:#5BA37D;
+    height:340px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+.col1 ul li{
+    list-style-type:none;
+    
+}
+
+.col1 ul li a{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:25px;
+    text-decoration: none;
+    color:#fff;
+    display:block;
+    padding:9px;
+}
+
+.col1 ul li a:hover{
+    background-color:#449D71;
+    border-bottom-left-radius: 20px;
+    
+}
+
+/*   COLUNA 2   */
+
+.col2{
+    height:380px;
+    width:370px;
+    float:left;
+    margin:10px;
+}
+
+.col2 h1{
+    color:#fff;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:26px;
+    text-align:center;
+    background-color:#006e39;
+    border-top-right-radius: 20px;
+    
+}
+
+.col2 ul{
+    text-align:center;
+    background-color:#5BA37D;
+    height:340px;
+    border-bottom-left-radius: 20px;
+}
+
+.col2 ul li{
+    list-style-type:none;
+}
+
+.col2 ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:26px;
+    display:block;
+    padding-top:40px;
+    padding-bottom:33px;
+}
+.col2 ul li a:hover{
+    background-color:#449D71;
+    border-bottom-left-radius: 20px;
+    
+}
+
+/*   COLUNA 3   */
+
+.col3{
+    height:380px;
+    width:370px;
+    float:left;
+    margin:10px;
+}
+
+.col3 h1{
+    color:#fff;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:26px;
+    text-align:center;
+    background-color:#006e39;
+    border-top-right-radius: 20px;
+}
+
+.col3 ul{
+    text-align:center;
+    background-color:#5BA37D;
+    height:340px;
+    border-bottom-left-radius: 20px;
+}
+
+.col3 ul li{
+    list-style-type:none;    
+}
+
+.col3 ul li a{
+    text-decoration: none;
+    color:#fff;
+    color:#fff;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:26px;
+    display:block;
+    padding-top:16px;
+    padding-bottom:12px;
+}
+
+.col3 ul li a:hover{
+    background-color:#449D71;
+    border-bottom-left-radius: 20px;
+}
+
+section h2{
+    width:1170px;
+    margin:0 auto;
+    height:50px;
+    clear:both;
+    font-family: 'Reem Kufi', sans-serif;
+    background-color:#006e39;
+    padding-top:10px;
+    color:#fff;
+    text-align:center; 
+}
+
+
+footer{
+    background-color:#006e39;
+    height:230px;
+    clear:left;
+    position:relative;
+}   
+
+footer ul{
+    display:inline-block;
+    position:relative;
+    left:40px;
+    top:-30px;
+        
+    
+}
+
+footer li{
+    list-style-type:none;
+    display:inline-block;
+    margin-left:5px;
+}
+
+.logorodape{
+    max-height:100px;
+    position:relative;
+    left:22%;
+}
+
+.social{
+    display:inline-block;
+    height:50px;
+    width:50px;
+}
+
+.social span{display:none;}
+
+.insta{    
+    background-image:url(../imagens/insta.png);
+    background-size:50px;
+}
+
+.face{
+    background-image:url(../imagens/face.png);
+    background-size:50px 50px; 
+    
+}
+
+.whats{
+    background-image:url(../imagens/whats.png);
+    background-size:50px 50px;    
+}
+
+footer p{
+    display:block;
+    color:#fff;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:15px;
+    position:absolute;
+    bottom:5px;
+    left:36%;
+    float:left;
+    clear:left;
+    text-align:center;
+}
+footer p a{
+    text-decoration:none;
+    color:#fff;
+}
+
+
+/* PÀGINA SERVIÇOS */
+
+
+.banner_servicos{
+    height:350px;
+    background-image: url(../imagens/banner_servicos.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
+.textob_servicos{
+    display:block;
+    position:relative;
+    left:80px;
+    top:0;
+    width:490px;
+    height:350px;
+    color:#fff;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:46px;
+    text-align:center;
+    background-color:rgba(50, 50, 50, 0.2);
+}
+
+main .tit_pagina{
+    color:#fff;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:46px;
+    text-align:center;
+    background-color: #006e39;
+    background-image: url(../imagens/seguranca-do-trabalho.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size:110px 110px;
+    border-bottom-left-radius: 250px;
+    border-top-left-radius: 250px;
+    margin:30px 30px 50px 30px;
+    padding:20px;
+ 
+}
+
+main h2{
+    color:#fff;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:40px;
+    padding:8px;
+    padding-left:30px;
+    background-color:#5BA37D;
+}
+
+main  h3{
+    color:#006e39;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:30px;
+    text-align:left;
+    background-color:rgba(150, 150, 150, 0.1);
+    margin:10px;
+    padding-left:20px;
+    margin-top:5px;
+}
+
+main h3 a{
+    text-decoration:none;
+    color:#006e39;
+    display:block;
+} 
+
+main h3:hover{
+    background-color:#5BA37D;
+}
+
+main h3 a:hover{
+    color:#fff;
+}
+
+
+/* Descrições de cada serviço */
+
+/*h1's da section "decricao"*/
+.titulo_desc{
+    margin:30px 0 0 0;
+    padding:10px;
+    border-left: 15px solid #ffd700;
+    background-color:#0B5731;
+    border-top-right-radius:30px;
+    color:#fff;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:40px;
+    text-align:center;
+
+}
+
+/*p's da section "descricao"*/
+.desc{
+    text-align: justify;
+    padding:20px;
+    font-size:30px;
+    font-family: 'Reem Kufi', sans-serif;
+    margin-bottom:50px;
+    margin-top:30px;
+    background-color:rgba(25, 25, 25, 0.04);
+    border-bottom-left-radius:30px;
+    border-top-right-radius:30px;
+    
+}
+
+/*PCMAT*/
+#pcmat{
+    
+}
+
+.b_pcmat{
+    height:300px;
+    width:1170px;
+    background-image: url(../imagens/pcmat.jpeg);
+    background-size:cover;
+    border-bottom-left-radius:30px;
+}
+
+/*PCMSO*/
+.b_pcmso{
+    height:350px;
+    width:1170px;
+    background-image: url(../imagens/pcmso.jpg);
+    background-size:cover;
+    border-bottom-left-radius:30px;
+}
+
+/*PPRA*/
+.b_ppra{
+    height:360px;
+    width:1170px;
+    background-image: url(../imagens/ppra.png);
+    background-size:cover;
+    background-position: center;
+    border-bottom-left-radius:30px;
+}
+
+/*COMO AGIR DIANTE DE UM ACIDENTE DE TRABALHO*/
+.b_acidente{
+    height:450px;
+    width:1170px;
+    background-image: url(../imagens/acidente.png);
+    background-position: center -30px;
+    border-bottom-left-radius:30px;
+}
+
+/*COMO PREVINIR ACIDENTES DE TRABALHO*/
+.b_acid_trabalho{
+    height:300px;
+    width:1170px;
+    background-image: url(../imagens/acid_trabalho.jpg);
+    border-bottom-left-radius:30px;
+  
+}
+
+/*CONSCIENTIZANDO AO USO DE EQUIPAMENTOS DE SEGURANÇA*/
+.b_eq_seg{
+    height:300px;
+    width:1170px;
+    background-image: url(../imagens/eq_seg.png);
+    background-size:1170px 300px;
+    border-bottom-left-radius:30px;
+}
+
+/*MOTIVACIONAL*/
+.b_mot{
+    height:300px;
+    width:1170px;
+    background-image: url(../imagens/motivacional.jpg);
+    background-position:center -250px;
+    border-bottom-left-radius:30px;
+}
+
+/*NR6*/
+.b_nr6{
+    height:300px;
+    width:1170px;
+    background-image: url(../imagens/nr6.jpg);
+    background-size:1000px 390px;
+    background-position:center;
+    border-bottom-left-radius:30px;
+}
+
+/*NR10*/
+.b_nr10{
+    height:300px;
+    width:1170px;
+    background-image: url(../imagens/nr10.jpg);
+    background-size: 1170px 300px;
+    background-position:center;
+    border-bottom-left-radius:30px;
+}
+
+/*NR23*/
+.b_nr23{
+    height:300px;
+    width:1170px;
+    background-image: url(../imagens/nr23.jpg);
+    background-size:1170px 300px;
+    background-position:center;
+    border-bottom-left-radius:30px;
+}
+
+/*NR33*/
+.b_nr33{
+    height:400px;
+    width:1170px;
+    background-image: url(../imagens/nr33.jpg);
+    background-size:1170px;
+    background-position:center -170px;
+    border-bottom-left-radius:30px;
+}
+
+/*NR35*/
+.b_nr35{
+    height:300px;
+    width:1170px;
+    background-image: url(../imagens/nr35.jpg);
+    background-size:cover;
+    background-position: center -150px;
+    border-bottom-left-radius:30px;
+}
+
+/*CIPA*/
+.b_cipa{
+    height:300px;
+    width:1170px;
+    background-image: url(../imagens/cipa.PNG);
+    background-size:1170px 300px;
+    background-position: center;
+    border-bottom-left-radius:30px;
+}
+
+/*SIPAT*/
+.b_sipat{
+    height:300px;
+    width:1170px;
+    background-image: url(../imagens/sipat.png);
+    background-size:1200px 320px;
+    background-position:center;
+    border-bottom-left-radius:30px;
+}
+
+/*Lembrete*/
+
+.lembrete{
+    width:600px;
+    margin:0 auto;
+    text-align:center;
+    border:5px solid #149755;
+    margin-bottom:40px;
+    padding:50px;
+    font-size:30px;
+    font-family:'Reem Kufi', sans-serif;
+    border-radius:300px;
+    background-color: rgba(25, 25, 25, 0.05);
+}
+
+.lembrete a{
+    color:#149755;
+    text-decoration: none;
+}
+
+/* PÀGINA CONTATO */
+
+.banner_contato{
+    height:350px;
+    background-image: url(../imagens/banner_contato.jpg);
+    background-repeat:no-repeat;
+    background-size:1170px 500px;
+
+}
+
+.textob_contato{
+    display:block;
+    height:320px;
+    width:450px;
+    color:#fff;
+    text-align:center;
+    font-family:'Reem Kufi', sans-serif;
+    font-size:46px;
+    padding:0px 30px 30px 30px;
+    position:relative;
+    left:120px;
+    background-color:rgba(25, 25, 25, 0.3);
+}
+
+/*Telefone na aba contato*/
+.ctt #tel{
+    display:inline-block;
+    float:left;
+    margin:23px;
+}
+
+.ctt #tel h2{
+    width: 500px;
+    height:40px;
+    font-size: 30px;
+    border-top-right-radius:20px;
+}
+
+.ctt #tel p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Reem Kufi', sans-serif;
+    padding:20px;
+    background-color:rgba(50, 50, 50, 0.05);
+    border-bottom-left-radius:20px;
+    
+}
+
+/*Email na barra contato*/
+.ctt #email{
+    display:inline-block;
+    float:left;
+    margin:23px;
+    
+}
+
+.ctt #email h2{
+    width: 500px;
+    height:40px;
+    font-size: 30px;
+    border-top-right-radius:20px;
+    
+}
+.ctt #email p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Reem Kufi', sans-serif;
+    padding:20px;
+    background-color:rgba(50, 50, 50, 0.05);
+    border-bottom-left-radius:20px;
+}
+
+/*Redes sociais na barra contato*/
+.ctt #siganos{
+    clear:both;
+    margin: 30px auto;
+}
+
+.ctt #siganos h2{
+    width: 550px;
+    padding: 20px;
+    font-size: 30px;
+    height:40px;
+    border-top-right-radius:30px;
+    border-bottom-left-radius:30px;
+    background-color: #006e39;
+}
+
+.ctt #siganos p{
+    margin:30px auto;    
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Reem Kufi', sans-serif;
+    padding:20px;
+    background-color:#5BA37D;
+    color:#fff;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    width:500px;
+    
+}
+
+.ctt #ins{
+    background-image: url(../imagens/insta.png);
+    background-repeat: no-repeat;
+    background-size:70px;
+    background-position: left;
+}
+
+.ctt #fac{
+      background-image: url(../imagens/face.png);
+    background-repeat: no-repeat;
+    background-size:70px;
+    background-position: left;
+}
+
+.ctt #what{
+      background-image: url(../imagens/whats.png);
+    background-repeat: no-repeat;
+    background-size:70px;
+    background-position: left;
+}
+
+/*Formulário*/
+
+form{
+   color:#006e39;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:30px;
+    text-align:left;
+    background-color:rgba(150, 150, 150, 0.1);
+    margin:40px;
+    padding-left:20px; 
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    padding:60px;
+    
+}
+
+form h3{
+    background: none;
+    text-align: center;
+    font-size:35px;
+}
+
+form h3:hover{
+    background: none;
+    
+}
+
+form h5{
+    text-align: center;
+    font-size:30px;
+}
+
+input[type=text], input[type=date], input[type=email], textarea{
+    background: none;
+    padding:10px 30px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+}
+
+input[type=checkbox]{
+    width:17px;
+    height:17px;
+}
+
+input[type=submit], input[type=reset]{
+    width:200px;
+    height:50px;
+    border-radius: 5px;
+    background-color: #5BA37D;
+    color:#fff;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 20px;
+    padding:10px;
+    margin:20px;
+    
+}
+
+/* PÀGINA PERGUNTAS FREQUENTES */
+
+.banner_faq{
+    height:350px;
+    background-image: url(../imagens/banner_faq.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
+.textob_faq{
+    display:block;
+    position:relative;
+    left:80px;
+    padding:20px;
+    top:0;
+    width:490px;
+    height:310px;
+    color:#fff;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:46px;
+    text-align:center;
+    background-color:rgba(50, 50, 50, 0.2);
+}
+
+#intro_faq{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:26px;
+    text-align:left;
+    padding:30px;
+    border-left: 8px solid #0B5731;
+    margin-bottom: 40px;
+}
+.perguntas{
+    border-left: 15px solid #ffd700;
+    background-color: #0B5731;
+    border-bottom-left-radius:30px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.respostas{
+    text-align: justify;
+    padding:20px;
+    font-size:30px;
+    font-family: 'Reem Kufi', sans-serif;
+    margin-bottom:20px;
+    margin-top:30px;
+    background-color:rgba(25, 25, 25, 0.04);
+    border-bottom-left-radius:30px;
+    border-top-right-radius:30px;
+    display:none;
+}
+
+/*TABELA*/
+table, th, td{
+    font-family:'Reem Kufi', sans-serif;
+    border-collapse:collapse;
+    text-align:center;
+    padding: 15px;
+    font-size:20px;
+}
+
+table{
+    margin:20px auto;
+    margin-bottom: 40px;
+
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+
+th{
+    background-color: #0B5731;
+    color: white;
+}
+
+
+/*PÀGINA SOBRE*/
+
+.banner_sobre{
+    height:350px;
+    background-image: url(../imagens/banner_sobre.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
+.textob_sobre{
+    display:block;
+    height:320px;
+    width:450px;
+    color:#fff;
+    text-align:center;
+    font-family:'Reem Kufi', sans-serif;
+    font-size:46px;
+    padding:0px 30px 30px 30px;
+    position:relative;
+    left:330px;
+    background-color:rgba(25, 25, 25, 0.3);
+    
+}
+
+.sobre_content{
+    
+}
+
+.sobre_content p{
+    margin: 10px 0 30px;
+    text-align:center;
+    padding:50px;
+    background-color:rgba(100, 100, 100, 0.09);
+    font-family:'Reem Kufi', sans-serif;
+    font-size:25px;
+    border-bottom-left-radius:30px;
+    border-top-right-radius:30px;
+}
+
+.sobre_content h2{
+    border-left: 15px solid #ffd700;
+    background-color: #0B5731;
+    border-bottom-left-radius:30px;
+}
+
+.sobre_content ol{
+    margin: 10px 0 30px;
+    text-align:left;
+    padding:50px 50px 50px 100px;
+    background-color:rgba(100, 100, 100, 0.09);
+    font-family:'Reem Kufi', sans-serif;
+    font-size:25px;
+    border-bottom-left-radius:30px;
+    border-top-right-radius:30px;
+}
